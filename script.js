@@ -4,9 +4,9 @@ const getToDos = (callback)=>{
 
 const request = new XMLHttpRequest();
 
-// Fires a callback function every time the http request state changes
-// States are from 1-4
-// 4 means the request is completed and ready to be used
+//  Fires a callback function every time the http request state changes
+//  States are from 1-4
+//  4 means the request is completed and ready to be used
 
 request.addEventListener("readystatechange",()=>{
     console.log(request.readyState)
